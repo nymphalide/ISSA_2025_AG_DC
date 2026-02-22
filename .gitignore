@@ -1,0 +1,25 @@
+# General
+.idea/
+.vscode/
+*.log
+
+# Spring Boot (Java)
+target/
+build/
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# Python Mock
+__pycache__/
+.venv/
+*.pyc
+
+# Flutter App
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+carsharing.db
