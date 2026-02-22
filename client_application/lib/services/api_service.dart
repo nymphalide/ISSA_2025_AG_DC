@@ -5,7 +5,7 @@ import '../models/car.dart';
 class ApiService {
   // Remember: 10.0.2.2 is the specific bridge IP for the Android Emulator
   // to talk to your Windows machine's localhost.
-  static const String baseUrl = "http://10.0.2.2:8080/api";
+  static const String baseUrl = "http://localhost:8080/api";
 
   // 1. Get the list of available cars
   Future<List<Car>> fetchCars() async {
